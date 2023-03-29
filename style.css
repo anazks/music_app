@@ -19,19 +19,30 @@
   --lightbshadow: rgba(0,0,0,0.15);
 }
 body{
-  display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(var(--pink) 0%, var(--violet) 100%);
+  background-color: black;
+}
+.nav{
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  border-bottom: 1px solid white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: black;
 }
 .wrapper{
-  width: 380px;
-  padding: 25px 30px;
+  width: 50%;
+  height: 70%;
+  top: 100px;
+ margin: auto;
   overflow: hidden;
   position: relative;
   border-radius: 15px;
-  background: var(--white);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border: 1px solid white;
+  background:black;
   box-shadow: 0px 6px 15px var(--lightbshadow);
 }
 .wrapper i{
